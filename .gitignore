@@ -19,3 +19,12 @@ vendor
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# NodeJS
+node_modules
+
+# Log Files
+*.log
+
+# Environment Variables
+.env

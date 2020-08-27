@@ -6,6 +6,10 @@ provider:
   name: aws
   runtime: go1.x
 
+plugins:
+  - serverless-pseudo-parameters
+  - serverless-dotenv-plugin
+
 package:
   exclude:
     - ./**
@@ -25,3 +29,8 @@ functions:
       - http:
           path: world
           method: get
+
+custom:
+  dotenv:
+    include:
+      - LOG_LEVEL # workaround for absence of exclude

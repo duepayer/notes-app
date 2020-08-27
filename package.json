@@ -1,0 +1,9 @@
+{
+  "name": "notes-app",
+  "version": "0.1.0",
+  "dependencies": {
+    "serverless-apigateway-service-proxy": "^1.9.0",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-pseudo-parameters": "^2.5.0"
+  }
+}
